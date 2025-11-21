@@ -1,240 +1,307 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@300;400;700&display=swap');/* Importa a fonte Quicksand do Google Fonts */
 
 * {
     box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
 }
 
 :root {
-    --primary-color: #8ab4f8; /* Cor primária (azul claro) */
-    --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
-    --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+    /* Cores de Quadrinhos */
+    --primary-color: #E23D28; /* Vermelho vibrante (ex: capa de gibi) */
+    --secondary-color: #FFFFFF; /* Branco puro para texto principal */
+    --tertiary-color: #2F3640; /* Azul escuro/Preto para detalhes */
+    --bg-color: #F8F4E3; /* Creme claro, simulando papel envelhecido */
+    --accent-color: #FFD700; /* Amarelo ouro para destaques */
+    --dark-bg-color: #1a1a1a; /* Para elementos que precisam de contraste escuro */
 }
 
 body {
-    margin: 0; /* Remove a margem padrão do body */
-    background: var(--bg-color); /* Define a cor de fundo usando uma variável */
-    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
-    font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--tertiary-color); /* Texto principal agora será escuro */
+    font-family: "Comic Neue", cursive; /* Fonte padrão mais amigável */
+    line-height: 1.6;
 }
 
 header {
-    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
-    display: flex; /* Habilita o layout flexbox */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: space-around; /* Distribui os itens com espaço ao redor */
-    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
-    top: 0; /* Posição do topo quando sticky */
-    background: var(--bg-color); /* Cor de fundo do cabeçalho */
-    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
-    border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
-    gap: 1rem; /* Espaçamento entre os elementos flex */
+    padding: 1.5rem 1rem; /* Ajustar padding */
+    display: flex;
+    flex-direction: column; /* Começar em coluna para melhor responsividade e empilhamento */
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background: var(--primary-color); /* Fundo vibrante */
+    z-index: 10;
+    border-bottom: 5px solid var(--tertiary-color); /* Borda grossa preta */
+    gap: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
 }
 
 header h1 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    margin: 0; /* Remove a margem padrão */
-    font-weight: 500; /* Peso da fonte (médio) */
-    white-space: nowrap; /* Impede a quebra de linha do texto */
+    font-family: "Bangers", cursive; /* Fonte de título de quadrinhos */
+    font-size: 3.5rem; /* Tamanho maior para o título */
+    color: var(--secondary-color); /* Branco ou amarelo */
+    text-shadow: 5px 5px 0 var(--tertiary-color); /* Sombra de texto para efeito 3D */
+    margin-bottom: 1rem; /* Espaço abaixo do título */
+    line-height: 1; /* Para não quebrar a linha */
+    white-space: normal; /* Permitir que o texto quebre se for muito longo */
+    text-align: center; /* Centralizar o título */
 }
 
-div input {
-    padding: 0.375rem 0.75rem; /* Espaçamento interno */
-    border-radius: 1rem; /* Arredonda as bordas */
-    border: 1px solid var(--tertiary-color); /* Define a borda */
-    background: var(--bg-color); /* Cor de fundo */
-    font-family: inherit; /* Herda a família da fonte do elemento pai */
-    font-size: 1.5rem; /* Tamanho da fonte */
-    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
-    width: 30rem; /* Largura do input */
-    color: var(--secondary-color); /* Cor do texto digitado */
-    margin-right: .5rem; /* Margem à direita */
+/* Ajustar o div que contém input, select e button */
+header div {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que os itens quebrem a linha */
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem; /* Espaçamento entre os elementos do formulário */
+}
+
+div input,
+#seletor-afiliacao { /* Aplicar estilos ao select também */
+    padding: 0.75rem 1rem; /* Aumentar um pouco o padding */
+    border-radius: 8px; /* Menos arredondado, mais "caixa" */
+    border: 2px solid var(--tertiary-color); /* Borda sólida escura */
+    background: var(--secondary-color); /* Fundo branco/claro */
+    font-family: "Comic Neue", cursive;
+    font-size: 1.1rem;
+    width: 25rem; /* Ajustar largura */
+    color: var(--tertiary-color);
+    margin-right: 0; /* Remover margem direita para controle via gap */
 }
 
 div input::placeholder {
-    font-size: 1.2rem; /* Tamanho da fonte do placeholder */
-    font-weight: 300; /* Peso da fonte do placeholder */
-    color: var(--tertiary-color); /* Cor do texto do placeholder */
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--tertiary-color);
 }
 
-div input:focus {
-    outline: none; /* Remove a borda de foco padrão */
-    border-color: var(--bg-color); /* Muda a cor da borda ao focar */
-    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa para indicar foco */
+div input:focus,
+#seletor-afiliacao:focus {
+    outline: none;
+    border-color: var(--accent-color); /* Borda amarela/destaque no foco */
+    box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.5); /* Sombra para indicar foco */
 }
+
+#seletor-afiliacao {
+    appearance: none; /* Remove o estilo padrão do select */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%232F3640%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+    padding-right: 2.5rem; /* Espaço para a seta customizada */
+    cursor: pointer;
+    max-width: 15rem; /* Limitar largura do select */
+}
+
 
 #botao-busca {
-    padding: 1rem 2rem; /* Espaçamento interno */
-    border-radius: 1rem; /* Arredonda as bordas */
-    border: none; /* Remove a borda padrão */
-    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
-    font-family: inherit; /* Herda a família da fonte */
-    font-weight: 500; /* Peso da fonte */
-    font-size: 1rem; /* Tamanho da fonte */
-    white-space: nowrap; /* Impede a quebra de linha do texto */
-    transition: background-color 0.2s ease, color 0.2s ease; /* Transição suave para cor de fundo e cor do texto */
-    background-color: var(--bg-color); /* Cor de fundo */
-    color: var(--secondary-color); /* Cor do texto */
-    border: 1px solid var(--bg-color); /* Adiciona uma borda */
+    padding: 0.75rem 1.5rem; /* Ajustar padding */
+    border-radius: 8px; /* Menos arredondado */
+    border: 2px solid var(--tertiary-color); /* Borda escura */
+    cursor: pointer;
+    font-family: "Bangers", cursive; /* Fonte impactante */
+    font-weight: 400; /* Bangers já é negrito */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    background-color: var(--accent-color); /* Fundo amarelo de destaque */
+    color: var(--tertiary-color); /* Texto escuro */
+    text-transform: uppercase; /* Maiúsculas para impacto */
+    transition: all 0.2s ease;
+    box-shadow: 3px 3px 0 var(--tertiary-color); /* Sombra 3D */
 }
 
 #botao-busca:hover {
-    background-color: var(--primary-color); /* Muda a cor de fundo ao passar o mouse */
-    color: var(--bg-color); /* Muda a cor do texto ao passar o mouse */
-    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa */
+    background-color: #FFEA00; /* Ligeiramente mais claro */
+    color: var(--dark-bg-color);
+    box-shadow: 4px 4px 0 var(--dark-bg-color); /* Aumentar sombra */
+    transform: translate(-1px, -1px); /* Pequeno deslocamento */
 }
 
 #botao-busca:active {
-    transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
+    transform: translate(2px, 2px); /* Efeito de "clique" com a sombra */
+    box-shadow: 1px 1px 0 var(--dark-bg-color);
 }
 
 main {
-    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
-    max-width: 80rem; /* Largura máxima do conteúdo principal */
-    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
-    margin-top: 2rem; /* Margem no topo */
-    height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
+    overflow-y: auto; /* Melhor usar auto, rolagem só se necessário */
+    max-width: 70rem; /* Um pouco mais estreito para foco */
+    margin: 2rem auto;
+    height: calc(100vh - 10rem - 4rem - 3rem); /* Ajustar altura. (header + footer + margin) */
+    padding: 0 1rem; /* Adicionar padding ao main */
 }
 
+.card-container { /* Adicionar esta classe no seu CSS */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid responsivo para os cards */
+    gap: 2rem; /* Espaçamento entre os cards */
+    padding: 1rem;
+}
+
+
 article {
-    background: none; /* Sem cor de fundo */
-    border-radius: 0; /* Sem bordas arredondadas */
-    padding: 0; /* Remove o padding */
-    padding: 0 1rem; /* Espaçamento interno nos lados */
-    margin-bottom: 1.25rem; /* Margem inferior */
-    box-shadow: none; /* Sem sombra */
-    transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
-    border-bottom: 1px solid var(--bg-color); /* Borda inferior */
-    padding-bottom: 1.5rem; /* Espaçamento interno inferior */
+    background: var(--secondary-color); /* Fundo branco para os cards */
+    border-radius: 10px; /* Bordas arredondadas suaves */
+    padding: 1.5rem;
+    margin-bottom: 0; /* A margem será controlada pelo gap do grid */
+    box-shadow: 5px 5px 0 var(--tertiary-color), 10px 10px 0 var(--accent-color); /* Sombra dupla */
+    border: 3px solid var(--tertiary-color); /* Borda escura */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Remover border-bottom e padding-bottom do article original */
 }
 
 article:hover {
-    transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
-    cursor: pointer; /* Muda o cursor para uma mão */
+    transform: translate(-3px, -3px) scale(1.02); /* Movimento ao passar o mouse */
+    box-shadow: 8px 8px 0 var(--tertiary-color), 15px 15px 0 var(--accent-color); /* Aumentar sombra */
+    cursor: pointer;
 }
 
 article h2 {
-    margin-top: 0; /* Remove a margem superior */
-    font-weight: 600; /* Peso da fonte */
-    font-size: 1.6rem; /* Tamanho da fonte */
-    border-bottom: none; /* Sem borda inferior */
-    padding-bottom: 0; /* Sem espaçamento interno inferior */
-    margin-bottom: 0.25rem; /* Margem inferior */
-    color: var(--primary-color); /* Cor do texto */
+    font-family: "Bangers", cursive;
+    font-size: 2.2rem; /* Título do personagem */
+    color: var(--primary-color); /* Vermelho principal */
+    text-shadow: 3px 3px 0 var(--tertiary-color); /* Sombra para o título do card */
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
 }
 
 article p {
-    margin: 0.5rem 0; /* Margem superior e inferior */
-    line-height: 1.6; /* Altura da linha para melhor legibilidade */
-    font-size: 1rem; /* Tamanho da fonte */
-    margin-bottom: 0.5rem; /* Margem inferior */
-    color: var(--secondary-color); /* Cor do texto */
+    margin: 0.75rem 0;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: var(--tertiary-color); /* Texto escuro */
 }
 
 article p strong {
-    color: var(--tertiary-color); /* Cor do texto em negrito */
-    font-weight: 400; /* Peso da fonte */
+    color: var(--primary-color); /* Destaque em vermelho para o strong */
+    font-weight: 700; /* Negrito da Comic Neue */
 }
 
 article a {
-    color: var(--primary-color); /* Cor do link */
-    text-decoration: none; /* Remove o sublinhado padrão */
-    font-weight: 200; /* Peso da fonte */
+    color: var(--primary-color); /* Links em vermelho */
+    text-decoration: underline; /* Sublinhado para links */
+    font-weight: 700; /* Mais negrito */
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.1); /* Pequena sombra no link */
 }
 
 article a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: var(--accent-color); /* Cor de destaque no hover do link */
+    text-decoration: none; /* Remover sublinhado no hover */
 }
 
 .footer {
-    position: absolute; /* Posicionamento absoluto em relação ao elemento pai posicionado */
-    bottom: 0; /* Alinha na parte inferior */
-    left: 0; /* Alinha à esquerda */
-    width: 100%; /* Largura total */
-    color: var(--tertiary-color); /* Cor do texto */
-    background-color: var(--bg-color); /* Cor de fundo */
-    padding: 15px 20px; /* Espaçamento interno */
-    border-top: 1px solid #3c4043; /* Borda superior */
-    font-size: 0.8rem; /* Tamanho da fonte */
+    position: relative; /* Ajustar para relative, pois o main não preenche 100% da altura */
+    width: 100%;
+    color: var(--secondary-color); /* Texto branco */
+    background-color: var(--tertiary-color); /* Fundo escuro */
+    padding: 15px 20px;
+    border-top: 5px solid var(--primary-color); /* Borda vermelha */
+    font-size: 0.9rem;
+    display: flex; /* Usar flexbox */
+    justify-content: space-between; /* Espaço entre localização e links */
+    align-items: center;
+    flex-wrap: wrap; /* Permitir quebra em telas pequenas */
+    margin-top: 2rem; /* Para ter espaço abaixo do conteúdo */
 }
 
 .footer-location {
-    color: #9aa0a6; /* Cor do texto */
-    margin-bottom: 10px; /* Margem inferior */
+    color: var(--secondary-color);
+    margin-bottom: 0; /* Remover margem, gerenciada pelo flexbox */
 }
 
 .footer-links {
-    list-style: none; /* Remove os marcadores da lista */
-    display: flex; /* Habilita o layout flexbox */
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 15px; /* Espaçamento entre os links */
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0; /* Remover margem padrão */
+    padding: 0; /* Remover padding padrão */
 }
 
 .footer-links a {
-    color: var(--secondary-color); /* Cor do link */
-    text-decoration: none; /* Remove o sublinhado */
-    transition: color 0.2s; /* Transição suave para a cor */
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .footer-links a:hover {
-    color: var(--accent-color); /* Muda a cor do link ao passar o mouse (variável não definida) */
+    color: var(--accent-color); /* Amarelo no hover */
+}
+
+@media (max-width: 1024px) { /* Adicione um ponto de quebra para tablets maiores */
+    header h1 {
+        font-size: 3rem;
+    }
+    div input, #seletor-afiliacao {
+        width: 20rem;
+    }
 }
 
 @media (max-width: 768px) {
-    header { /* Estilos para telas com largura máxima de 768px */
-        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
-        padding: 1rem; /* Reduz o espaçamento interno */
+    header {
+        flex-direction: column;
+        padding: 1rem;
     }
 
-    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
-        text-align: center; /* Centraliza o texto */
-        margin-bottom: 1rem; /* Adiciona margem inferior */
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.8rem;
     }
 
-    div input { /* Estilos para o input em telas menores */
-        width: 90vw; /* Largura baseada na largura da viewport */
-        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    header div {
+        flex-direction: column; /* Empilhar input, select e button */
+        width: 100%; /* Ocupar toda a largura disponível */
     }
 
-    main { /* Estilos para o main em telas menores */
-        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    div input, #seletor-afiliacao {
+        width: 90%; /* Largura maior em telas menores */
+        font-size: 1rem;
+    }
+    #botao-busca {
+        width: 90%;
+        margin-top: 0.8rem; /* Espaço entre o select/input e o botão */
     }
 
-    article:hover { /* Estilos para o article em telas menores */
-        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    .card-container {
+        grid-template-columns: 1fr; /* Um card por linha em telas menores */
+        padding: 0.5rem;
+    }
+
+    article:hover {
+        transform: none; /* Remover o hover de transform em telas pequenas */
+        box-shadow: 5px 5px 0 var(--tertiary-color), 10px 10px 0 var(--accent-color); /* Manter a sombra original */
+    }
+
+    .footer {
+        flex-direction: column; /* Rodapé em coluna */
+        text-align: center;
+        gap: 10px;
+    }
+    .footer-location {
+        margin-bottom: 0;
     }
 }
 
 @media (max-width: 480px) {
-    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
-        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
-        max-width: 70%; /* Define uma largura máxima */
-        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    header h1 {
+        font-size: 2rem;
+        text-shadow: 3px 3px 0 var(--tertiary-color);
     }
 
-    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
-    div input::placeholder {
-        font-size: 1rem; /* Reduz o tamanho da fonte */
+    div input, div input::placeholder, #seletor-afiliacao {
+        font-size: 0.9rem;
     }
 
-    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
-        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    article h2 {
+        font-size: 1.8rem;
+        text-shadow: 2px 2px 0 var(--tertiary-color);
     }
-
-    div { /* Estilos para a div do cabeçalho em telas muito pequenas */
-        display: flex; /* Habilita flexbox */
-        align-items: center; /* Alinha itens ao centro */
-        justify-content: center; /* Centraliza itens */
-        flex-direction: column; /* Organiza em coluna */
-        gap: 0.5rem; /* Espaçamento entre os itens */
+    .footer {
+        display: flex; /* Manter o footer visível, mas em coluna */
+        flex-direction: column;
+        padding: 10px 15px;
     }
-
-    .footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé */
-    }
-
-    button { /* Estilos para o botão em telas muito pequenas */
-        margin-top: 1rem; /* Adiciona margem no topo */
+    .footer-links {
+        justify-content: center;
     }
 }

@@ -1,0 +1,122 @@
+[
+    {
+        "Nome do Personagem": "Mulher-Maravilha",
+        "Primeira Aparição": "All Star Comics #8",
+        "Ano de Estreia": 1941,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Mulher-Maravilha",
+        "Afiliação": "Liga da Justiça",
+        "Habilidade Principal": "Força sobre-humana, Voo, Agilidade"
+    },
+    {
+        "Nome do Personagem": "Batman",
+        "Primeira Aparição": "Detective Comics #27",
+        "Ano de Estreia": 1939,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Batman",
+        "Afiliação": "Liga da Justiça",
+        "Habilidade Principal": "Intelecto excepcional, Artes marciais, Equipamentos avançados"
+    },
+    {
+        "Nome do Personagem": "Superman",
+        "Primeira Aparição": "Action Comics #1",
+        "Ano de Estreia": 1938,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Superman",
+        "Afiliação": "Liga da Justiça",
+        "Habilidade Principal": "Força sobre-humana, Voo, Visão de calor"
+    },
+    {
+        "Nome do Personagem": "Flash (Barry Allen)",
+        "Primeira Aparição": "Showcase #4",
+        "Ano de Estreia": 1956,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Flash_(Barry_Allen)",
+        "Afiliação": "Liga da Justiça",
+        "Habilidade Principal": "Supervelocidade, Reflexos acelerados"
+    },
+    {
+        "Nome do Personagem": "Arqueiro Verde",
+        "Primeira Aparição": "More Fun Comics #73",
+        "Ano de Estreia": 1941,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Arqueiro_Verde",
+        "Afiliação": "Liga da Justiça",
+        "Habilidade Principal": "Arco e flecha, Habilidades de combate corpo a corpo"
+    },
+    {
+        "Nome do Personagem": "Lanterna Verde (Hal Jordan)",
+        "Primeira Aparição": "Showcase #22",
+        "Ano de Estreia": 1959,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Hal_Jordan",
+        "Afiliação": "Tropa dos Lanternas Verdes, Liga da Justiça",
+        "Habilidade Principal": "Anel de poder que materializa construtos de luz"
+    },
+    {
+        "Nome do Personagem": "Aquaman",
+        "Primeira Aparição": "More Fun Comics #73",
+        "Ano de Estreia": 1941,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Aquaman",
+        "Afiliação": "Liga da Justiça",
+        "Habilidade Principal": "Comunicação com vida marinha, Fisiologia atlante"
+    },
+    {
+        "Nome do Personagem": "Ciborgue",
+        "Primeira Aparição": "DC Comics Presents #26",
+        "Ano de Estreia": 1980,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Ciborgue_(DC_Comics)",
+        "Afiliação": "Liga da Justiça, Jovens Titãs",
+        "Habilidade Principal": "Integração cibernética, Canhão sônico, Voo"
+    },
+    {
+        "Nome do Personagem": "Shazam",
+        "Primeira Aparição": "Whiz Comics #2",
+        "Ano de Estreia": 1940,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Shazam_(personagem)",
+        "Afiliação": "Família Shazam, Liga da Justiça",
+        "Habilidade Principal": "Poderes mágicos dos deuses (Sabedoria, Força, Vigor, Poder, Coragem, Velocidade)"
+    },
+    {
+        "Nome do Personagem": "Coringa",
+        "Primeira Aparição": "Batman #1",
+        "Ano de Estreia": 1940,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Coringa",
+        "Afiliação": "Inimigos do Batman",
+        "Habilidade Principal": "Intelecto genial, Mestre do caos e anarquia"
+    },
+    {
+        "Nome do Personagem": "Lex Luthor",
+        "Primeira Aparição": "Action Comics #23",
+        "Ano de Estreia": 1940,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Lex_Luthor",
+        "Afiliação": "Inimigos do Superman",
+        "Habilidade Principal": "Intelecto de nível gênio, Vasta riqueza e recursos"
+    },
+    {
+        "Nome do Personagem": "Mulher-Gato",
+        "Primeira Aparição": "Batman #1",
+        "Ano de Estreia": 1940,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Mulher-Gato",
+        "Afiliação": "Inimigos do Batman, Bat-Família (ocasionalmente)",
+        "Habilidade Principal": "Ladroagem especialista, Agilidade e habilidades acrobáticas"
+    },
+    {
+        "Nome do Personagem": "Arlequina",
+        "Primeira Aparição": "Batman: A Série Animada",
+        "Ano de Estreia": 1992,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Arlequina",
+        "Afiliação": "Esquadrão Suicida, Aves de Rapina",
+        "Habilidade Principal": "Ginasta habilidosa, Imunidade a toxinas"
+    },
+    {
+        "Nome do Personagem": "Asa Noturna",
+        "Primeira Aparição": "Tales of the Teen Titans #44",
+        "Ano de Estreia": 1984,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Asa_Noturna",
+        "Afiliação": "Bat-Família, Jovens Titãs",
+        "Habilidade Principal": "Acrobata mestre, Artes marciais, Detetive"
+    },
+    {
+        "Nome do Personagem": "Caçador de Marte",
+        "Primeira Aparição": "Detective Comics #225",
+        "Ano de Estreia": 1955,
+        "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Ca%C3%A7ador_de_Marte",
+        "Afiliação": "Liga da Justiça",
+        "Habilidade Principal": "Metamorfose, Telepatia, Intangibilidade"
+    }
+]
