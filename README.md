@@ -2,7 +2,7 @@
 
 ## 📜 Visão Geral do Projeto
 
-Este projeto é uma **Base de Conhecimento Interativa** desenvolvida a partir do template da [Imersão Dev da Alura](https://www.alura.com.br/imersao-dev) (edição 10). Foi totalmente **customizado** para catalogar o vasto universo de heróis, vilões e anti-heróis da **DC Comics**.
+Este projeto é uma **Base de Conhecimento Interativa** desenvolvida a partir do template da [Imersão Dev da Alura](https://cursos.alura.com.br/imersoes) (edição 10). Foi totalmente **customizado** para catalogar o vasto universo de heróis, vilões e anti-heróis da **DC Comics**.
 
 O objetivo principal foi transformar uma simples base de dados de programação em um **catálogo temático** com um visual único, utilizando HTML, CSS e JavaScript puro para gerenciamento de dados e filtros dinâmicos.
 
