@@ -54,10 +54,19 @@ function getCategoria(afiliacao) {
         afiliacaoLowerCase.includes('jovens titãs') || 
         afiliacaoLowerCase.includes('tropa dos lanternas verdes') || 
         afiliacaoLowerCase.includes('família shazam') || 
-        afiliacaoLowerCase.includes('bat-família')) {
+        afiliacaoLowerCase.includes('bat-família') ||
+        afiliacaoLowerCase.includes('sociedade da justiça da américa') ||
+        afiliacaoLowerCase.includes('aves de rapina') ||
+        afiliacaoLowerCase.includes('liga da justiça sombria') ||
+        afiliacaoLowerCase.includes('patrulha do destino') ||
+        afiliacaoLowerCase.includes('foragidos') ||
+        afiliacaoLowerCase.includes('família superman')) {
         return 'heroi';
     } else if (afiliacaoLowerCase.includes('inimigos do batman') || 
-               afiliacaoLowerCase.includes('inimigos do superman')) {
+               afiliacaoLowerCase.includes('inimigos do superman') ||
+               afiliacaoLowerCase.includes('sociedade da injustiça') ||
+               afiliacaoLowerCase.includes('legião do mal') ||
+               afiliacaoLowerCase.includes('esquadrão suicida')) {
         return 'vilao';
     } else {
         return 'neutro';
