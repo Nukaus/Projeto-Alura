@@ -1,0 +1,514 @@
+[
+  {
+    "Nome do Personagem": "Mulher-Maravilha",
+    "Primeira Aparição": "All Star Comics #8",
+    "Ano de Estreia": 1941,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Mulher-Maravilha",
+    "Afiliação": "Liga da Justiça",
+    "Habilidade Principal": "Força sobre-humana, Voo, Agilidade"
+  },
+  {
+    "Nome do Personagem": "Batman",
+    "Primeira Aparição": "Detective Comics #27",
+    "Ano de Estreia": 1939,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Batman",
+    "Afiliação": "Liga da Justiça",
+    "Habilidade Principal": "Intelecto excepcional, Artes marciais, Equipamentos avançados"
+  },
+  {
+    "Nome do Personagem": "Superman",
+    "Primeira Aparição": "Action Comics #1",
+    "Ano de Estreia": 1938,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Superman",
+    "Afiliação": "Liga da Justiça",
+    "Habilidade Principal": "Força sobre-humana, Voo, Visão de calor"
+  },
+  {
+    "Nome do Personagem": "Flash (Barry Allen)",
+    "Primeira Aparição": "Showcase #4",
+    "Ano de Estreia": 1956,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Flash_(Barry_Allen)",
+    "Afiliação": "Liga da Justiça",
+    "Habilidade Principal": "Supervelocidade, Reflexos acelerados"
+  },
+  {
+    "Nome do Personagem": "Arqueiro Verde",
+    "Primeira Aparição": "More Fun Comics #73",
+    "Ano de Estreia": 1941,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Arqueiro_Verde",
+    "Afiliação": "Liga da Justiça",
+    "Habilidade Principal": "Arco e flecha, Habilidades de combate corpo a corpo"
+  },
+  {
+    "Nome do Personagem": "Lanterna Verde (Hal Jordan)",
+    "Primeira Aparição": "Showcase #22",
+    "Ano de Estreia": 1959,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Hal_Jordan",
+    "Afiliação": "Tropa dos Lanternas Verdes, Liga da Justiça",
+    "Habilidade Principal": "Anel de poder que materializa construtos de luz"
+  },
+  {
+    "Nome do Personagem": "Aquaman",
+    "Primeira Aparição": "More Fun Comics #73",
+    "Ano de Estreia": 1941,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Aquaman",
+    "Afiliação": "Liga da Justiça",
+    "Habilidade Principal": "Comunicação com vida marinha, Fisiologia atlante"
+  },
+  {
+    "Nome do Personagem": "Ciborgue",
+    "Primeira Aparição": "DC Comics Presents #26",
+    "Ano de Estreia": 1980,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Ciborgue_(DC_Comics)",
+    "Afiliação": "Liga da Justiça, Jovens Titãs",
+    "Habilidade Principal": "Integração cibernética, Canhão sônico, Voo"
+  },
+  {
+    "Nome do Personagem": "Shazam",
+    "Primeira Aparição": "Whiz Comics #2",
+    "Ano de Estreia": 1940,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Shazam_(personagem)",
+    "Afiliação": "Família Shazam, Liga da Justiça",
+    "Habilidade Principal": "Poderes mágicos dos deuses (Sabedoria, Força, Vigor, Poder, Coragem, Velocidade)"
+  },
+  {
+    "Nome do Personagem": "Coringa",
+    "Primeira Aparição": "Batman #1",
+    "Ano de Estreia": 1940,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Coringa",
+    "Afiliação": "Inimigos do Batman",
+    "Habilidade Principal": "Intelecto genial, Mestre do caos e anarquia"
+  },
+  {
+    "Nome do Personagem": "Lex Luthor",
+    "Primeira Aparição": "Action Comics #23",
+    "Ano de Estreia": 1940,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Lex_Luthor",
+    "Afiliação": "Inimigos do Superman",
+    "Habilidade Principal": "Intelecto de nível gênio, Vasta riqueza e recursos"
+  },
+  {
+    "Nome do Personagem": "Mulher-Gato",
+    "Primeira Aparição": "Batman #1",
+    "Ano de Estreia": 1940,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Mulher-Gato",
+    "Afiliação": "Inimigos do Batman, Bat-Família (ocasionalmente)",
+    "Habilidade Principal": "Ladroagem especialista, Agilidade e habilidades acrobáticas"
+  },
+  {
+    "Nome do Personagem": "Arlequina",
+    "Primeira Aparição": "Batman: A Série Animada",
+    "Ano de Estreia": 1992,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Arlequina",
+    "Afiliação": "Esquadrão Suicida, Aves de Rapina",
+    "Habilidade Principal": "Ginasta habilidosa, Imunidade a toxinas"
+  },
+  {
+    "Nome do Personagem": "Asa Noturna",
+    "Primeira Aparição": "Tales of the Teen Titans #44",
+    "Ano de Estreia": 1984,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Asa_Noturna",
+    "Afiliação": "Bat-Família, Jovens Titãs",
+    "Habilidade Principal": "Acrobata mestre, Artes marciais, Detetive"
+  },
+  {
+    "Nome do Personagem": "Caçador de Marte",
+    "Primeira Aparição": "Detective Comics #225",
+    "Ano de Estreia": 1955,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Ca%C3%A7ador_de_Marte",
+    "Afiliação": "Liga da Justiça",
+    "Habilidade Principal": "Metamorfose, Telepatia, Intangibilidade"
+  },
+  {
+    "Nome do Personagem": "Adão Negro",
+    "Primeira Aparição": "The Marvel Family #1",
+    "Ano de Estreia": 1945,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Ad%C3%A3o_Negro",
+    "Afiliação": "Sociedade da Injustiça, Legião do Mal",
+    "Habilidade Principal": "Poderes do Egito Antigo, Força, Voo, Eletrocinese"
+  },
+  {
+    "Nome do Personagem": "Supergirl",
+    "Primeira Aparição": "Action Comics #252",
+    "Ano de Estreia": 1959,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Supergirl",
+    "Afiliação": "Família Superman, Liga da Justiça",
+    "Habilidade Principal": "Força sobre-humana, Voo, Visão de calor"
+  },
+  {
+    "Nome do Personagem": "Batgirl (Barbara Gordon)",
+    "Primeira Aparição": "Detective Comics #359",
+    "Ano de Estreia": 1967,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Batgirl",
+    "Afiliação": "Bat-Família, Aves de Rapina",
+    "Habilidade Principal": "Intelecto genial, Hacker especialista, Artes marciais"
+  },
+  {
+    "Nome do Personagem": "Robin (Damian Wayne)",
+    "Primeira Aparição": "Batman: Son of the Demon",
+    "Ano de Estreia": 1987,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Damian_Wayne",
+    "Afiliação": "Bat-Família, Jovens Titãs",
+    "Habilidade Principal": "Treinamento em artes marciais pela Liga dos Assassinos"
+  },
+  {
+    "Nome do Personagem": "Estelar",
+    "Primeira Aparição": "DC Comics Presents #26",
+    "Ano de Estreia": 1980,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Estelar",
+    "Afiliação": "Jovens Titãs",
+    "Habilidade Principal": "Absorção de energia, Voo, Rajadas de energia"
+  },
+  {
+    "Nome do Personagem": "Ravena",
+    "Primeira Aparição": "DC Comics Presents #26",
+    "Ano de Estreia": 1980,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Ravena_(DC_Comics)",
+    "Afiliação": "Jovens Titãs",
+    "Habilidade Principal": "Empatia, Manipulação de sombras, Telecinese"
+  },
+  {
+    "Nome do Personagem": "Mutano",
+    "Primeira Aparição": "The Doom Patrol #99",
+    "Ano de Estreia": 1965,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Mutano",
+    "Afiliação": "Patrulha do Destino, Jovens Titãs",
+    "Habilidade Principal": "Metamorfose em qualquer animal"
+  },
+  {
+    "Nome do Personagem": "Besouro Azul (Jaime Reyes)",
+    "Primeira Aparição": "Infinite Crisis #3",
+    "Ano de Estreia": 2006,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Besouro_Azul",
+    "Afiliação": "Jovens Titãs",
+    "Habilidade Principal": "Escaravelho alienígena que fornece uma armadura poderosa"
+  },
+  {
+    "Nome do Personagem": "Doutor Destino (Kent Nelson)",
+    "Primeira Aparição": "More Fun Comics #55",
+    "Ano de Estreia": 1940,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Senhor_Destino",
+    "Afiliação": "Sociedade da Justiça da América",
+    "Habilidade Principal": "Magia, Feitiçaria, Elmo de Nabu"
+  },
+  {
+    "Nome do Personagem": "Zatanna",
+    "Primeira Aparição": "Hawkman #4",
+    "Ano de Estreia": 1964,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Zatanna",
+    "Afiliação": "Liga da Justiça Sombria",
+    "Habilidade Principal": "Magia (geralmente conjurada falando de trás para frente)"
+  },
+  {
+    "Nome do Personagem": "Constantine",
+    "Primeira Aparição": "The Saga of Swamp Thing #37",
+    "Ano de Estreia": 1985,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/John_Constantine",
+    "Afiliação": "Liga da Justiça Sombria",
+    "Habilidade Principal": "Ocultismo, Magia, Manipulação"
+  },
+  {
+    "Nome do Personagem": "Monstro do Pântano",
+    "Primeira Aparição": "House of Secrets #92",
+    "Ano de Estreia": 1971,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Monstro_do_P%C3%A2ntano",
+    "Afiliação": "O Verde, Liga da Justiça Sombria",
+    "Habilidade Principal": "Manipulação de plantas, Regeneração, Força sobre-humana"
+  },
+  {
+    "Nome do Personagem": "Espectro",
+    "Primeira Aparição": "More Fun Comics #52",
+    "Ano de Estreia": 1940,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Espectro_(DC_Comics)",
+    "Afiliação": "Espírito da Vingança, Sociedade da Justiça da América",
+    "Habilidade Principal": "Poderes divinos quase ilimitados"
+  },
+  {
+    "Nome do Personagem": "Gavião Negro",
+    "Primeira Aparição": "Flash Comics #1",
+    "Ano de Estreia": 1940,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Gavi%C3%A3o_Negro",
+    "Afiliação": "Sociedade da Justiça da América, Liga da Justiça",
+    "Habilidade Principal": "Asas de metal Nth, Reencarnação, Maestria em armas antigas"
+  },
+  {
+    "Nome do Personagem": "Mulher-Gavião",
+    "Primeira Aparição": "Flash Comics #1",
+    "Ano de Estreia": 1940,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Mulher-Gavi%C3%A3o",
+    "Afiliação": "Sociedade da Justiça da América, Liga da Justiça",
+    "Habilidade Principal": "Asas de metal Nth, Reencarnação, Maestria em armas antigas"
+  },
+  {
+    "Nome do Personagem": "Vixen",
+    "Primeira Aparição": "Action Comics #521",
+    "Ano de Estreia": 1981,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Vixen_(DC_Comics)",
+    "Afiliação": "Liga da Justiça",
+    "Habilidade Principal": "Mimetismo animal através do Tantu Totem"
+  },
+  {
+    "Nome do Personagem": "Canário Negro",
+    "Primeira Aparição": "Flash Comics #86",
+    "Ano de Estreia": 1947,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Can%C3%A1rio_Negro",
+    "Afiliação": "Aves de Rapina, Liga da Justiça",
+    "Habilidade Principal": "Grito do Canário (grito sônico), Mestre em artes marciais"
+  },
+  {
+    "Nome do Personagem": "Katana",
+    "Primeira Aparição": "The Brave and the Bold #200",
+    "Ano de Estreia": 1983,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Katana_(DC_Comics)",
+    "Afiliação": "Aves de Rapina, Esquadrão Suicida",
+    "Habilidade Principal": "Mestre espadachim, Espada Soultaker que captura almas"
+  },
+  {
+    "Nome do Personagem": "Capuz Vermelho (Jason Todd)",
+    "Primeira Aparição": "Batman #357",
+    "Ano de Estreia": 1983,
+    "Link da Wiki/Página Oficial": "https://pt.wikipedia.org/wiki/Capuz_Vermelho",
+    "Afiliação": "Bat-Família (anteriormente), Foragidos",
+    "Habilidade Principal": "Atirador especialista, Mestre em artes marciais"
+  },
+  {
+    "Nome do Personagem": "Jonathan Kent",
+    "Primeira Aparição": "Superman #1",
+    "Ano de Estreia": "1939",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Jonathan_Kent_(New_Earth)",
+    "Afiliação": "Família Kent",
+    "Habilidade Principal": "Força moral, Agricultura"
+  },
+  {
+    "Nome do Personagem": "Martha Kent",
+    "Primeira Aparição": "Superman #1",
+    "Ano de Estreia": "1939",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Martha_Kent_(New_Earth)",
+    "Afiliação": "Família Kent",
+    "Habilidade Principal": "Habilidades maternas, Costura"
+  },
+  {
+    "Nome do Personagem": "Lois Lane",
+    "Primeira Aparição": "Action Comics #1",
+    "Ano de Estreia": "1938",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Lois_Lane_(New_Earth)",
+    "Afiliação": "Planeta Diário",
+    "Habilidade Principal": "Jornalismo investigativo de elite"
+  },
+  {
+    "Nome do Personagem": "Lex Luthor",
+    "Primeira Aparição": "Action Comics #23",
+    "Ano de Estreia": "1940",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Alexander_Luthor_(New_Earth)",
+    "Afiliação": "LexCorp, Sociedade Secreta dos Supervilões",
+    "Habilidade Principal": "Intelecto de nível gênio, Riqueza"
+  },
+  {
+    "Nome do Personagem": "Brainiac",
+    "Primeira Aparição": "Action Comics #242",
+    "Ano de Estreia": "1958",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Brainiac_(New_Earth)",
+    "Afiliação": "Vilões do Superman",
+    "Habilidade Principal": "Intelecto cibernético avançado, Absorção de conhecimento"
+  },
+  {
+    "Nome do Personagem": "General Zod",
+    "Primeira Aparição": "Adventure Comics #283",
+    "Ano de Estreia": "1961",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Dru-Zod_(New_Earth)",
+    "Afiliação": "Kryptonianos Exilados",
+    "Habilidade Principal": "Superforça, Voo, Visão de calor (sob sol amarelo)"
+  },
+  {
+    "Nome do Personagem": "Supergirl (Kara Zor-El)",
+    "Primeira Aparição": "Action Comics #252",
+    "Ano de Estreia": "1959",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Kara_Zor-El_(New_Earth)",
+    "Afiliação": "Família Superman, Liga da Justiça",
+    "Habilidade Principal": "Superforça e invulnerabilidade, Voo"
+  },
+  {
+    "Nome do Personagem": "Krypto",
+    "Primeira Aparição": "Adventure Comics #210",
+    "Ano de Estreia": "1955",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Krypto_(New_Earth)",
+    "Afiliação": "Família Superman",
+    "Habilidade Principal": "Voo e superforça kryptonianos caninos"
+  },
+  {
+    "Nome do Personagem": "Batwoman (Kate Kane)",
+    "Primeira Aparição": "52 #7",
+    "Ano de Estreia": "2006",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Katherine_Kane_(New_Earth)",
+    "Afiliação": "Família Batman",
+    "Habilidade Principal": "Mestra em combate e táticas militares"
+  },
+  {
+    "Nome do Personagem": "Alfred Pennyworth",
+    "Primeira Aparição": "Batman #16",
+    "Ano de Estreia": "1943",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Alfred_Pennyworth_(New_Earth)",
+    "Afiliação": "Família Batman",
+    "Habilidade Principal": "Medicina e cirurgia de campo, Serviço e apoio"
+  },
+  {
+    "Nome do Personagem": "James Gordon",
+    "Primeira Aparição": "Detective Comics #27",
+    "Ano de Estreia": "1939",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/James_Gordon_(New_Earth)",
+    "Afiliação": "Departamento de Polícia de Gotham",
+    "Habilidade Principal": "Detetive e Estrategista policial"
+  },
+  {
+    "Nome do Personagem": "Barbara Gordon (Batgirl/Oracle)",
+    "Primeira Aparição": "Detective Comics #359 (Batgirl)",
+    "Ano de Estreia": "1967",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Barbara_Gordon_(New_Earth)",
+    "Afiliação": "Família Batman, Aves de Rapina",
+    "Habilidade Principal": "Hacker e especialista em informática, Artes marciais"
+  },
+  {
+    "Nome do Personagem": "Jason Todd (Capuz Vermelho)",
+    "Primeira Aparição": "Batman #357 (Robin); Batman #635 (Capuz Vermelho)",
+    "Ano de Estreia": "1983",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Jason_Todd_(New_Earth)",
+    "Afiliação": "Família Batman (anteriormente), Renegados",
+    "Habilidade Principal": "Atirador e mestre em combate armado"
+  },
+  {
+    "Nome do Personagem": "Tim Drake (Red Robin)",
+    "Primeira Aparição": "Batman #436",
+    "Ano de Estreia": "1989",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Timothy_Drake_(New_Earth)",
+    "Afiliação": "Jovens Titãs, Família Batman",
+    "Habilidade Principal": "Detetive genial, Artes marciais"
+  },
+  {
+    "Nome do Personagem": "Damian Wayne",
+    "Primeira Aparição": "Batman: Son of the Demon (1987, não cânone); Batman #655 (Cânone)",
+    "Ano de Estreia": "2006",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Damian_Wayne_(New_Earth)",
+    "Afiliação": "Família Batman, Liga dos Assassinos (anteriormente)",
+    "Habilidade Principal": "Mestre em artes marciais e espionagem"
+  },
+  {
+    "Nome do Personagem": "Mulher Gato (Selina Kyle)",
+    "Primeira Aparição": "Batman #1",
+    "Ano de Estreia": "1940",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Selina_Kyle_(New_Earth)",
+    "Afiliação": "Sem afiliação fixa, Vilã/Anti-Heroína",
+    "Habilidade Principal": "Mestra ladra e acrobata"
+  },
+  {
+    "Nome do Personagem": "Duas Caras (Harvey Dent)",
+    "Primeira Aparição": "Detective Comics #66",
+    "Ano de Estreia": "1942",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Harvey_Dent_(New_Earth)",
+    "Afiliação": "Galeria de Vilões do Batman",
+    "Habilidade Principal": "Planejamento tático, Conhecimento legal"
+  },
+  {
+    "Nome do Personagem": "Pinguim (Oswald Cobblepot)",
+    "Primeira Aparição": "Detective Comics #58",
+    "Ano de Estreia": "1941",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(New_Earth)",
+    "Afiliação": "Galeria de Vilões do Batman",
+    "Habilidade Principal": "Mestre em organização criminosa, Guarda-chuvas armados"
+  },
+  {
+    "Nome do Personagem": "Charada (Edward Nygma)",
+    "Primeira Aparição": "Detective Comics #140",
+    "Ano de Estreia": "1948",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Edward_Nygma_(New_Earth)",
+    "Afiliação": "Galeria de Vilões do Batman",
+    "Habilidade Principal": "Intelecto de gênio, Criação de enigmas complexos"
+  },
+  {
+    "Nome do Personagem": "Sr. Frio (Victor Fries)",
+    "Primeira Aparição": "Batman #121 (Como Mr. Zero); Detective Comics #373 (Sr. Frio)",
+    "Ano de Estreia": "1959",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Victor_Fries_(New_Earth)",
+    "Afiliação": "Galeria de Vilões do Batman",
+    "Habilidade Principal": "Crio-engenharia, Armas de congelamento"
+  },
+  {
+    "Nome do Personagem": "Talia al Ghul",
+    "Primeira Aparição": "Detective Comics #411",
+    "Ano de Estreia": "1971",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Talia_al_Ghul_(New_Earth)",
+    "Afiliação": "Liga dos Assassinos",
+    "Habilidade Principal": "Mestra em combate e espionagem, Liderança"
+  },
+  {
+    "Nome do Personagem": "Ra's al Ghul",
+    "Primeira Aparição": "Batman #232",
+    "Ano de Estreia": "1971",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Ra%27s_al_Ghul_(New_Earth)",
+    "Afiliação": "Liga dos Assassinos",
+    "Habilidade Principal": "Imortalidade (via Poço de Lázaro), Mestre em combate"
+  },
+  {
+    "Nome do Personagem": "Bizarro",
+    "Primeira Aparição": "Superboy #68",
+    "Ano de Estreia": "1958",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Bizarro_(New_Earth)",
+    "Afiliação": "Vilões do Superman",
+    "Habilidade Principal": "Poderes reversos kryptonianos"
+  },
+  {
+    "Nome do Personagem": "Superboy (Conner Kent)",
+    "Primeira Aparição": "Adventures of Superman #500",
+    "Ano de Estreia": "1993",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Conner_Kent_(New_Earth)",
+    "Afiliação": "Jovens Titãs, Família Superman",
+    "Habilidade Principal": "Toque tátil de telecinese, Superforça e Voo"
+  },
+  {
+    "Nome do Personagem": "Stephanie Brown (Spoiler)",
+    "Primeira Aparição": "Detective Comics #647",
+    "Ano de Estreia": "1992",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Stephanie_Brown_(New_Earth)",
+    "Afiliação": "Família Batman",
+    "Habilidade Principal": "Acrobacia, Mestre em artes marciais"
+  },
+  {
+    "Nome do Personagem": "Lucius Fox",
+    "Primeira Aparição": "Batman #307",
+    "Ano de Estreia": "1979",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Lucius_Fox_(New_Earth)",
+    "Afiliação": "Wayne Enterprises",
+    "Habilidade Principal": "Gênio em negócios e tecnologia, Gestão empresarial"
+  },
+  {
+    "Nome do Personagem": "Renee Montoya",
+    "Primeira Aparição": "Batman #475",
+    "Ano de Estreia": "1992",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Renee_Montoya_(New_Earth)",
+    "Afiliação": "GCPD, A Pergunta",
+    "Habilidade Principal": "Habilidades de detetive, Combate corpo a corpo"
+  },
+  {
+    "Nome do Personagem": "Metallo (John Corben)",
+    "Primeira Aparição": "Action Comics #252",
+    "Ano de Estreia": "1959",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/John_Corben_(New_Earth)",
+    "Afiliação": "Vilões do Superman",
+    "Habilidade Principal": "Força ciborgue, Fonte de energia de Kryptonita"
+  },
+  {
+    "Nome do Personagem": "Doomsday",
+    "Primeira Aparição": "Superman: The Man of Steel #17",
+    "Ano de Estreia": "1992",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Doomsday_(New_Earth)",
+    "Afiliação": "Monstros Destrutivos",
+    "Habilidade Principal": "Força incomparável, Adaptação evolutiva, Imortalidade"
+  },
+  {
+    "Nome do Personagem": "Asa Noturna (Dick Grayson)",
+    "Primeira Aparição": "Detective Comics #38 (Como Robin); Tales of the Teen Titans #44 (Como Asa Noturna)",
+    "Ano de Estreia": "1940",
+    "Link da Wiki/Página Oficial": "https://dc.fandom.com/wiki/Richard_Grayson_(New_Earth)",
+    "Afiliação": "Família Batman, Novos Titãs",
+    "Habilidade Principal": "Acrobacia, Mestre em artes marciais e líder tático"
+  }
+]
